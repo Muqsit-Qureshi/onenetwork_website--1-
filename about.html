@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <title data-next-head="">About Us - OneNetwork Technology Solutions</title>
+  <meta charSet="utf-8" data-next-head="" />
+  <meta property="title" content="About Us - OneNetwork Technology Solutions" data-next-head="" />
+  <meta property="keyword" content="About OneNetwork, Technology Company, Our Team" data-next-head="" />
+  <meta name="description"
+    content="Learn about OneNetwork's mission, values, and the team behind our cutting-edge technology solutions from our base in Texas, USA."
+    data-next-head="" />
+  <link rel="canonical" href="https://www.onenetworktech.com/about" data-next-head="" />
+  <meta property="og:title" content="About Us - OneNetwork Technology Solutions" data-next-head="" />
+  <meta property="og:description"
+    content="Learn about OneNetwork's mission, values, and the team behind our cutting-edge technology solutions."
+    data-next-head="" />
+  <meta property="og:url" content="https://www.onenetworktech.com/about" data-next-head="" />
+  <meta property="og:image"
+    content="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    data-next-head="" />
+  <meta property="og:image:type" content="image/png" data-next-head="" />
+  <meta name="twitter:card" content="summary_large_image" data-next-head="" />
+  <meta name="twitter:title" content="About Us - OneNetwork Technology Solutions" data-next-head="" />
+  <meta name="twitter:description"
+    content="Learn about OneNetwork's mission, values, and the team behind our cutting-edge technology solutions."
+    data-next-head="" />
+  <meta name="twitter:image"
+    content="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    data-next-head="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" data-next-head="" />
+  <meta name="robots" content="index,follow" data-next-head="" />
+  <meta http-equiv="content-language" content="en" data-next-head="" />
+  <link rel="icon" href="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    /* Reuse all the styles from the main page */
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --secondary: #fb2979;
+      --dark: #1e293b;
+      --light: #f8fafc;
+      --gray: #64748b;
+      --gray-light: #e2e8f0;
+      --white: #ffffff;
+      --black: #000000;
+      --red: #ef4444;
+      --red-light: #fecaca;
+      --font-heading: 'Inter', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-body);
+      line-height: 1.6;
+      color: var(--dark);
+      background-color: var(--white);
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header Styles */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--white);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 1rem 0;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    .logo img {
+      height: 25%;
+      width: 25%;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-list {
+      display: flex;
+      list-style: none;
+      margin-right: 2rem;
+    }
+
+    .nav-item {
+      margin: 0 1rem;
+    }
+
+    .nav-link {
+      color: var(--dark);
+      font-weight: 500;
+      position: relative;
+      padding: 0.5rem 0;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .talk-btn {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .talk-btn:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--dark);
+    }
+
+    /* Pre-loader */
+    .pre-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .pre-loader::after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      border: 5px solid var(--gray-light);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Theme Toggle */
+    .fixed.right-0.bottom-\[5rem\] {
+      position: fixed;
+      right: 0;
+      bottom: 5rem;
+      padding-right: 1.5rem;
+      z-index: 1051;
+    }
+
+    .fixed.bottom-\[18px\].left-4 {
+      position: fixed;
+      bottom: 18px;
+      left: 1rem;
+      z-index: 50;
+    }
+
+    .rfp-btn {
+      background-color: var(--red);
+      color: var(--white);
+      padding: 0.5rem 1.5rem;
+      border-radius: 9999px;
+      display: flex;
+      gap: 0;
+      position: relative;
+      z-index: 10;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .rfp-btn:hover {
+      background-color: #dc2626;
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .about-hero {
+      position: relative;
+      width: 100%;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(rgba(37, 99, 235, 0.8), rgba(29, 78, 216, 0.8)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: var(--white);
+      overflow: hidden;
+      padding-top: 80px;
+      /* Account for fixed header */
+    }
+
+    .hero-gradient {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: linear-gradient(to top, var(--white) 0%, transparent 100%);
+    }
+
+    .about-hero-content {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about-hero-subtitle {
+      font-size: 1.125rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    .about-hero-title {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .about-hero-text {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    /* About Intro Section */
+    .about-intro {
+      padding: 5rem 0;
+      background-color: var(--white);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 4rem;
+    }
+
+    .section-subtitle {
+      font-size: 1.125rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    .section-description {
+      font-size: 1.125rem;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .about-image {
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-image img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+
+    .about-image:hover img {
+      transform: scale(1.05);
+    }
+
+    .about-text h3 {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+      color: var(--dark);
+    }
+
+    .about-text p {
+      margin-bottom: 1.5rem;
+      color: var(--gray);
+      line-height: 1.7;
+    }
+
+    /* Mission & Vision Section */
+    .mission-vision {
+      padding: 5rem 0;
+      background-color: var(--light);
+    }
+
+    .mv-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .mv-card {
+      background-color: var(--white);
+      padding: 2.5rem 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .mv-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .mv-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .mv-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .mv-icon {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto 1.5rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 1.75rem;
+      transition: all 0.3s ease;
+    }
+
+    .mv-card:hover .mv-icon {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    }
+
+    .mv-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .mv-description {
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* Team Section */
+    .team-section {
+      padding: 5rem 0;
+      background-color: var(--white);
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .team-card {
+      background-color: var(--white);
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .team-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-image {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .team-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .team-card:hover .team-image img {
+      transform: scale(1.1);
+    }
+
+    .team-info {
+      padding: 1.5rem;
+    }
+
+    .team-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+
+    .team-role {
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .team-description {
+      color: var(--gray);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .team-social {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    .team-social a {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: var(--light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--dark);
+      transition: all 0.3s ease;
+    }
+
+    .team-social a:hover {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: translateY(-3px);
+    }
+
+    /* Values Section */
+    .values-section {
+      padding: 5rem 0;
+      background-color: var(--light);
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .value-card {
+      background-color: var(--white);
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .value-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .value-icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 1.5rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 1.5rem;
+    }
+
+    .value-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .value-description {
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* Timeline Section */
+    .timeline-section {
+      padding: 5rem 0;
+      background-color: var(--white);
+      position: relative;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: var(--primary);
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+
+    .timeline-item {
+      padding: 10px 40px;
+      position: relative;
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    .timeline-item:nth-child(odd) {
+      left: 0;
+    }
+
+    .timeline-item:nth-child(even) {
+      left: 50%;
+    }
+
+    .timeline-item::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background-color: var(--white);
+      border: 4px solid var(--primary);
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .timeline-item:nth-child(odd)::after {
+      right: -13px;
+    }
+
+    .timeline-item:nth-child(even)::after {
+      left: -13px;
+    }
+
+    .timeline-content {
+      padding: 20px;
+      background-color: var(--white);
+      position: relative;
+      border-radius: 6px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .timeline-year {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .timeline-description {
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 5rem 0;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .cta-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-text {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background-color: var(--white);
+      color: var(--primary);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--gray-light);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 2px solid var(--white);
+      cursor: pointer;
+    }
+
+    .btn-outline:hover {
+      background-color: var(--white);
+      color: var(--primary);
+      transform: translateY(-2px);
+    }
+/* lets talk form */
+      /* Button style */
+.talk-btn {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.talk-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #0094cc);
+  transform: scale(1.05);
+}
+
+/* Modal overlay */
+.talk-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 15, 30, 0.85);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.4s ease;
+}
+
+/* Modal content */
+.talk-modal-content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  animation: slideUp 0.4s ease;
+  position: relative;
+  text-align: center;
+}
+
+/* Close button */
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Form styling */
+.talk-form .form-group {
+  margin-bottom: 1rem;
+}
+.talk-form input,
+.talk-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+.talk-form input:focus,
+.talk-form textarea:focus {
+  border-color: #007bff;
+}
+.submit-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes slideUp {
+  from {transform: translateY(30px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+    /* Footer */
+    footer {
+      background-color: var(--dark);
+      color: var(--white);
+      padding: 4rem 0 2rem;
+    }
+
+    .footer-main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-column h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .footer-column h3::after {
+      content: '';
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background-color: var(--primary);
+    }
+
+    .footer-logo img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.8);
+      transition: all 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--white);
+      padding-left: 0.5rem;
+    }
+
+    .footer-contact p {
+      margin-bottom: 0.5rem;
+      opacity: 0.8;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      background-color: var(--primary);
+      transform: translateY(-3px);
+    }
+
+    .footer-newsletter p {
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .newsletter-input {
+      flex: 1;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 0.25rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: var(--white);
+    }
+
+    .newsletter-input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .newsletter-btn {
+      background-color: var(--primary);
+      color: var(--white);
+      border: none;
+      border-radius: 0.25rem;
+      padding: 0 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .newsletter-btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    .footer-copyright {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      opacity: 0.7;
+    }
+
+    /* Utilities */
+    .hidden {
+      display: none;
+    }
+
+    .p-t-section {
+      padding-top: 5rem;
+    }
+
+    .p-b-section {
+      padding-bottom: 5rem;
+    }
+
+    /* Animations */
+    .animate-ping {
+      animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes ping {
+
+      75%,
+      100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .about-hero-title {
+        font-size: 2.5rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .about-content {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline::after {
+        left: 31px;
+      }
+
+      .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+
+      .timeline-item:nth-child(even) {
+        left: 0;
+      }
+
+      .timeline-item:nth-child(odd)::after,
+      .timeline-item:nth-child(even)::after {
+        left: 18px;
+      }
+
+      /* Mobile Header Styles */
+      .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: var(--white);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2rem;
+        transition: all 0.3s ease;
+      }
+
+      .nav-menu.active {
+        left: 0;
+      }
+
+      .nav-list {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+
+      .nav-item {
+        margin: 1rem 0;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .talk-btn {
+        margin-top: 1rem;
+      }
+
+      .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="__next">
+    <!-- Header Section -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img src="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+            alt="OneNetwork Logo" />
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="talk-btn">Let's Talk</button>
+        </nav>
+         <!-- Modal -->
+        <div class="talk-modal" id="talkModal">
+          <div class="talk-modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Let’s Talk</h2>
+            <p>Fill out the form and we’ll get back to you shortly.</p>
+
+            <form class="talk-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="min-h-[63.5px] md:min-h-[100.5px] lg:min-h-[100.5px]">
+        <div class="pre-loader"></div>
+      </div>
+
+      <!-- About Hero Section -->
+      <section class="about-hero">
+        <div class="container">
+          <div class="about-hero-content">
+            <p class="about-hero-subtitle">Get to Know Us</p>
+            <h1 class="about-hero-title">Our Story & Vision</h1>
+            <p class="about-hero-text">Learn about our journey, values, and the passionate team behind OneNetwork's
+              success in delivering cutting-edge technology solutions.</p>
+          </div>
+        </div>
+        <div class="hero-gradient"></div>
+      </section>
+
+      <!-- About Intro Section -->
+      <section class="about-intro">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Who We Are</p>
+            <h2 class="section-title">About OneNetwork</h2>
+            <p class="section-description">We are a team of passionate technology experts dedicated to helping
+              businesses thrive in the digital age.</p>
+          </div>
+
+          <div class="about-content">
+            <div class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="OneNetwork Team">
+            </div>
+            <div class="about-text">
+              <h3>Driving Digital Transformation</h3>
+              <p>Founded in 2008, OneNetwork has been at the forefront of technology innovation, helping businesses
+                across various industries leverage cutting-edge solutions to achieve their goals.</p>
+              <p>Our team of experts brings together decades of experience in network infrastructure, cloud computing,
+                cybersecurity, and software development to deliver comprehensive technology solutions tailored to your
+                specific needs.</p>
+              <p>We believe in building long-term partnerships with our clients, focusing on understanding their unique
+                challenges and delivering solutions that drive real business value.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission & Vision Section -->
+      <section class="mission-vision">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Our Purpose</p>
+            <h2 class="section-title">Mission & Vision</h2>
+            <p class="section-description">Guiding principles that drive everything we do at OneNetwork.</p>
+          </div>
+
+          <div class="mv-grid">
+            <div class="mv-card">
+              <div class="mv-icon">
+                <i class="fas fa-bullseye"></i>
+              </div>
+              <h3 class="mv-title">Our Mission</h3>
+              <p class="mv-description">To empower businesses with innovative technology solutions that drive growth,
+                enhance efficiency, and create sustainable competitive advantages in an ever-evolving digital landscape.
+              </p>
+            </div>
+
+            <div class="mv-card">
+              <div class="mv-icon">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h3 class="mv-title">Our Vision</h3>
+              <p class="mv-description">To be the leading technology partner for businesses seeking to transform their
+                operations, customer experiences, and industry impact through cutting-edge digital solutions.</p>
+            </div>
+
+            <div class="mv-card">
+              <div class="mv-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h3 class="mv-title">Our Approach</h3>
+              <p class="mv-description">We believe in collaborative partnerships, transparent communication, and
+                delivering measurable results that align with our clients' strategic objectives and business goals.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="team-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Our Experts</p>
+            <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-description">The talented professionals behind OneNetwork's success.</p>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-image">
+                <img
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="John Smith">
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">John Smith</h3>
+                <p class="team-role">CEO & Founder</p>
+                <p class="team-description">With over 20 years of experience in technology leadership, John founded
+                  OneNetwork with a vision to deliver exceptional technology solutions.</p>
+                <div class="team-social">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-image">
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Sarah Johnson">
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">Sarah Johnson</h3>
+                <p class="team-role">CTO</p>
+                <p class="team-description">Sarah leads our technical strategy with expertise in cloud architecture,
+                  cybersecurity, and emerging technologies.</p>
+                <div class="team-social">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-image">
+                <img
+                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Michael Chen">
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">Michael Chen</h3>
+                <p class="team-role">Lead Developer</p>
+                <p class="team-description">Michael specializes in full-stack development and leads our team in creating
+                  innovative software solutions.</p>
+                <div class="team-social">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-image">
+                <img
+                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Emily Rodriguez">
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">Emily Rodriguez</h3>
+                <p class="team-role">UX/UI Designer</p>
+                <p class="team-description">Emily creates intuitive and engaging user experiences that delight customers
+                  and drive business results.</p>
+                <div class="team-social">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Values Section -->
+      <section class="values-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">What We Stand For</p>
+            <h2 class="section-title">Our Values</h2>
+            <p class="section-description">The core principles that guide our actions and decisions.</p>
+          </div>
+
+          <div class="values-grid">
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="value-title">Innovation</h3>
+              <p class="value-description">We constantly explore new technologies and approaches to deliver cutting-edge
+                solutions that keep our clients ahead of the curve.</p>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="value-title">Integrity</h3>
+              <p class="value-description">We believe in honesty, transparency, and doing what's right for our clients,
+                even when no one is watching.</p>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3 class="value-title">Collaboration</h3>
+              <p class="value-description">We work closely with our clients as partners, fostering open communication
+                and shared success.</p>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h3 class="value-title">Excellence</h3>
+              <p class="value-description">We strive for excellence in everything we do, from the quality of our
+                solutions to the service we provide.</p>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <h3 class="value-title">Customer Focus</h3>
+              <p class="value-description">Our clients' success is our success. We are committed to understanding their
+                needs and delivering solutions that create real value.</p>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fas fa-sync-alt"></i>
+              </div>
+              <h3 class="value-title">Adaptability</h3>
+              <p class="value-description">In a rapidly changing technological landscape, we remain flexible and
+                responsive to new challenges and opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline Section -->
+      <section class="timeline-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Our Journey</p>
+            <h2 class="section-title">Company Timeline</h2>
+            <p class="section-description">Key milestones in OneNetwork's history of growth and innovation.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2008</div>
+                <h3 class="timeline-title">Company Founded</h3>
+                <p class="timeline-description">OneNetwork was established with a focus on providing network
+                  infrastructure solutions to small and medium businesses.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2012</div>
+                <h3 class="timeline-title">Expansion to Cloud Services</h3>
+                <p class="timeline-description">We expanded our service offerings to include cloud solutions, helping
+                  businesses migrate to and optimize cloud infrastructure.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2015</div>
+                <h3 class="timeline-title">Cybersecurity Division</h3>
+                <p class="timeline-description">Launched our cybersecurity practice to address growing threats and help
+                  businesses protect their digital assets.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2018</div>
+                <h3 class="timeline-title">Software Development</h3>
+                <p class="timeline-description">Added custom software development services to help businesses create
+                  tailored solutions for their unique challenges.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2021</div>
+                <h3 class="timeline-title">AI & Automation Focus</h3>
+                <p class="timeline-description">Began integrating AI and automation technologies into our solutions to
+                  drive efficiency and innovation for clients.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2023</div>
+                <h3 class="timeline-title">500+ Projects Delivered</h3>
+                <p class="timeline-description">Celebrated the milestone of delivering over 500 successful technology
+                  projects for clients across various industries.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <div class="container">
+          <h2 class="cta-title">Ready to Work With Us?</h2>
+          <p class="cta-text">Contact us today to discuss how our team can help your business achieve its technology
+            goals and drive growth.</p>
+          <div class="cta-buttons">
+            <button class="btn-primary">Get Started Today</button>
+            <button class="btn-outline">View Our Services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="container">
+          <div class="footer-main">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img src="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+                  alt="OneNetwork Logo" width="200" />
+              </div>
+              <p>OneNetwork provides cutting-edge technology solutions and network services from our base in Texas,
+                USA.</p>
+              <div class="footer-social">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-column">
+              <h3>Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Services</h3>
+              <ul class="footer-links">
+                <li><a href="#">Network Solutions</a></li>
+                <li><a href="#">Cloud Services</a></li>
+                <li><a href="#">Security Solutions</a></li>
+                <li><a href="#">IT Consulting</a></li>
+                <li><a href="#">Managed Services</a></li>
+                <li><a href="#">Software Development</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Contact Info</h3>
+              <div class="footer-contact">
+                <p><strong>Address:</strong> Texas, USA</p>
+                <p><strong>Phone:</strong> +1 888-404-0386</p>
+                <p><strong>Email:</strong> info@onenetworktech.com</p>
+                <!-- <p><strong>Hours:</strong> Mon-Fri: 9AM - 5PM</p> -->
+              </div>
+
+              <!-- <div class="footer-newsletter">
+                <p>Subscribe to our newsletter</p>
+                <form class="newsletter-form">
+                  <input type="email" placeholder="Your email" class="newsletter-input" required>
+                  <button type="submit" class="newsletter-btn">
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; 2023 OneNetwork. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // Simple script to handle the pre-loader
+    window.addEventListener('load', function () {
+      const preloader = document.querySelector('.pre-loader');
+      if (preloader) {
+        setTimeout(() => {
+          preloader.style.display = 'none';
+        }, 1000);
+      }
+
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const navMenu = document.getElementById('navMenu');
+
+      if (mobileMenuBtn && navMenu) {
+        mobileMenuBtn.addEventListener('click', function () {
+          navMenu.classList.toggle('active');
+        });
+      }
+
+      // Close mobile menu when clicking on a link
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          navMenu.classList.remove('active');
+        });
+      });
+    });
+
+      // Modal open/close logic
+    const talkBtn = document.querySelector('.talk-btn');
+    const modal = document.getElementById('talkModal');
+    const closeBtn = document.querySelector('.close-modal');
+
+    talkBtn.addEventListener('click', () => {
+      modal.style.display = 'flex';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+
+</html>

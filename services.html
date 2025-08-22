@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <title data-next-head="">Our Services - OneNetwork Technology Solutions</title>
+  <meta charSet="utf-8" data-next-head="" />
+  <meta property="title" content="Our Services - OneNetwork Technology Solutions" data-next-head="" />
+  <meta property="keyword" content="Technology Solutions, Network Services, IT Services, Cloud Solutions"
+    data-next-head="" />
+  <meta name="description"
+    content="OneNetwork provides comprehensive technology solutions including network services, cloud solutions, security, and IT consulting from our base in Texas, USA."
+    data-next-head="" />
+  <link rel="canonical" href="https://www.onenetworktech.com/services" data-next-head="" />
+  <meta property="og:title" content="Our Services - OneNetwork Technology Solutions" data-next-head="" />
+  <meta property="og:description"
+    content="OneNetwork provides comprehensive technology solutions including network services, cloud solutions, security, and IT consulting."
+    data-next-head="" />
+  <meta property="og:url" content="https://www.onenetworktech.com/services" data-next-head="" />
+  <meta property="og:image"
+    content="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    data-next-head="" />
+  <meta property="og:image:type" content="image/png" data-next-head="" />
+  <meta name="twitter:card" content="summary_large_image" data-next-head="" />
+  <meta name="twitter:title" content="Our Services - OneNetwork Technology Solutions" data-next-head="" />
+  <meta name="twitter:description"
+    content="OneNetwork provides comprehensive technology solutions including network services, cloud solutions, security, and IT consulting."
+    data-next-head="" />
+  <meta name="twitter:image"
+    content="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    data-next-head="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" data-next-head="" />
+  <meta name="robots" content="index,follow" data-next-head="" />
+  <meta http-equiv="content-language" content="en" data-next-head="" />
+  <link rel="icon" href="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+    type="image/png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    /* Reuse all the styles from the main page */
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --secondary: #fb2979;
+      --dark: #1e293b;
+      --light: #f8fafc;
+      --gray: #64748b;
+      --gray-light: #e2e8f0;
+      --white: #ffffff;
+      --black: #000000;
+      --red: #ef4444;
+      --red-light: #fecaca;
+      --font-heading: 'Inter', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-body);
+      line-height: 1.6;
+      color: var(--dark);
+      background-color: var(--white);
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header Styles */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--white);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 1rem 0;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 25%;
+      width: 25%;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-list {
+      display: flex;
+      list-style: none;
+      margin-right: 2rem;
+    }
+
+    .nav-item {
+      margin: 0 1rem;
+    }
+
+    .nav-link {
+      color: var(--dark);
+      font-weight: 500;
+      position: relative;
+      padding: 0.5rem 0;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .talk-btn {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .talk-btn:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--dark);
+    }
+
+    /* Pre-loader */
+    .pre-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .pre-loader::after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      border: 5px solid var(--gray-light);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Theme Toggle */
+    .fixed.right-0.bottom-\[5rem\] {
+      position: fixed;
+      right: 0;
+      bottom: 5rem;
+      padding-right: 1.5rem;
+      z-index: 1051;
+    }
+
+    .fixed.bottom-\[18px\].left-4 {
+      position: fixed;
+      bottom: 18px;
+      left: 1rem;
+      z-index: 50;
+    }
+
+    .rfp-btn {
+      background-color: var(--red);
+      color: var(--white);
+      padding: 0.5rem 1.5rem;
+      border-radius: 9999px;
+      display: flex;
+      gap: 0;
+      position: relative;
+      z-index: 10;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .rfp-btn:hover {
+      background-color: #dc2626;
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .services-hero {
+      position: relative;
+      width: 100%;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(rgba(37, 99, 235, 0.8), rgba(29, 78, 216, 0.8)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: var(--white);
+      overflow: hidden;
+      padding-top: 80px;
+      /* Account for fixed header */
+    }
+
+    .hero-gradient {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: linear-gradient(to top, var(--white) 0%, transparent 100%);
+    }
+
+    .services-hero-content {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .services-hero-subtitle {
+      font-size: 1.125rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    .services-hero-title {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .services-hero-text {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    /* Services Section */
+    .services-section {
+      padding: 5rem 0;
+      background-color: var(--light);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      position: relative;
+    }
+
+    .section-subtitle {
+      font-size: 1.125rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    .section-description {
+      font-size: 1.125rem;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .service-card {
+      background-color: var(--white);
+      padding: 2.5rem 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-icon {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto 1.5rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 1.75rem;
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover .service-icon {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    }
+
+    .service-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .service-description {
+      color: var(--gray);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-features {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-features li {
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .service-features li:before {
+      content: "✓";
+      color: var(--primary);
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+
+    .service-link {
+      color: var(--primary);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .service-link:hover {
+      color: var(--primary-dark);
+    }
+
+    .service-link i {
+      margin-left: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .service-link:hover i {
+      transform: translateX(5px);
+    }
+
+    .service-img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .service-img:hover {
+      transform: scale(1.05);
+    }
+
+    .service-article {
+      padding: 20px;
+    }
+
+    .service-item {
+      display: none;
+    }
+
+    .service-item.active {
+      display: block;
+    }
+
+    .service-item.active .row {
+      display: flex;
+      /* make row flex */
+      align-items: center;
+      /* vertical centering */
+      gap: 2rem;
+      /* space between cols */
+    }
+
+    .tab-btn {
+      padding: 10px 18px;
+      margin: 5px;
+      border: none;
+      background: #f4f4f4;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .tab-btn.active,
+    .tab-btn:hover {
+      background: #007bff;
+      color: #fff;
+    }
+
+    /* Additional Services Section */
+    .additional-services {
+      padding: 5rem 0;
+      background-color: var(--white);
+    }
+
+    .services-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+    }
+
+    .tab-btn {
+      padding: 0.75rem 1.5rem;
+      background-color: var(--light);
+      border: none;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tab-btn.active,
+    .tab-btn:hover {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+
+    .services-content {
+      /* display: grid; */
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .service-item {
+      display: none;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .service-item.active {
+      display: block;
+    }
+
+    .service-image {
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .service-image:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-image img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+
+    .service-image:hover img {
+      transform: scale(1.05);
+    }
+
+    /* Process Section */
+    .process-section {
+      padding: 5rem 0;
+      background-color: var(--light);
+    }
+
+    .process-steps {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .process-step {
+      flex: 1;
+      min-width: 250px;
+      max-width: 300px;
+      text-align: center;
+      position: relative;
+    }
+
+    .step-number {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin: 0 auto 1.5rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .process-step:not(:last-child):after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      width: 100%;
+      height: 2px;
+      background-color: var(--gray-light);
+      z-index: 1;
+    }
+
+    .step-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .step-description {
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 5rem 0;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .cta-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-text {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background-color: var(--white);
+      color: var(--primary);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--gray-light);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 2px solid var(--white);
+      cursor: pointer;
+    }
+
+    .btn-outline:hover {
+      background-color: var(--white);
+      color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      overflow-y: auto;
+      padding: 2rem 0;
+    }
+
+    .modal-content {
+      background-color: var(--white);
+      margin: 5% auto;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      animation: modalFadeIn 0.3s;
+      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    @keyframes modalFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--gray);
+      transition: color 0.3s ease;
+    }
+
+    .close-modal:hover {
+      color: var(--dark);
+    }
+
+    .modal-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--gray-light);
+    }
+
+    .modal-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .modal-image {
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .modal-features {
+      list-style: none;
+      margin: 1.5rem 0;
+    }
+
+    .modal-features li {
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--gray-light);
+    }
+
+    .modal-features li:before {
+      content: "✓";
+      color: var(--primary);
+      font-weight: bold;
+      margin-right: 0.5rem;
+      background: rgba(37, 99, 235, 0.1);
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-actions {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+    }
+
+    /* lets talk form */
+    /* Button style */
+    .talk-btn {
+      background: linear-gradient(135deg, #007bff, #00c6ff);
+      color: #fff;
+      padding: 12px 25px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .talk-btn:hover {
+      background: linear-gradient(135deg, #0056b3, #0094cc);
+      transform: scale(1.05);
+    }
+
+    /* Modal overlay */
+    .talk-modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 15, 30, 0.85);
+      backdrop-filter: blur(6px);
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 0.4s ease;
+    }
+
+    /* Modal content */
+    .talk-modal-content {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 2rem;
+      border-radius: 1rem;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+      animation: slideUp 0.4s ease;
+      position: relative;
+      text-align: center;
+    }
+
+    /* Close button */
+    .close-modal {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+    }
+
+    /* Form styling */
+    .talk-form .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .talk-form input,
+    .talk-form textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+
+    .talk-form input:focus,
+    .talk-form textarea:focus {
+      border-color: #007bff;
+    }
+
+    .submit-btn {
+      background: #007bff;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background: #0056b3;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--dark);
+      color: var(--white);
+      padding: 4rem 0 2rem;
+    }
+
+    .footer-main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-column h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .footer-column h3::after {
+      content: '';
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background-color: var(--primary);
+    }
+
+    .footer-logo img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.8);
+      transition: all 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--white);
+      padding-left: 0.5rem;
+    }
+
+    .footer-contact p {
+      margin-bottom: 0.5rem;
+      opacity: 0.8;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      background-color: var(--primary);
+      transform: translateY(-3px);
+    }
+
+    .footer-newsletter p {
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .newsletter-input {
+      flex: 1;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 0.25rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: var(--white);
+    }
+
+    .newsletter-input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .newsletter-btn {
+      background-color: var(--primary);
+      color: var(--white);
+      border: none;
+      border-radius: 0.25rem;
+      padding: 0 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .newsletter-btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    .footer-copyright {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      opacity: 0.7;
+    }
+
+    /* Utilities */
+    .hidden {
+      display: none;
+    }
+
+    .p-t-section {
+      padding-top: 5rem;
+    }
+
+    .p-b-section {
+      padding-bottom: 5rem;
+    }
+
+    /* Animations */
+    .animate-ping {
+      animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes ping {
+
+      75%,
+      100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .services-hero-title {
+        font-size: 2.5rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .services-content,
+      .modal-body {
+        grid-template-columns: 1fr;
+      }
+
+      /* Mobile Header Styles */
+      .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: var(--white);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2rem;
+        transition: all 0.3s ease;
+      }
+
+      .nav-menu.active {
+        left: 0;
+      }
+
+      .nav-list {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+
+      .nav-item {
+        margin: 1rem 0;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .talk-btn {
+        margin-top: 1rem;
+      }
+
+      .process-step:not(:last-child):after {
+        display: none;
+      }
+
+      .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .modal-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="__next">
+    <!-- Header Section -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img src="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+            alt="OneNetwork Logo" />
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="talk-btn">Let's Talk</button>
+        </nav>
+
+        <!-- Modal -->
+        <div class="talk-modal" id="talkModal">
+          <div class="talk-modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Let’s Talk</h2>
+            <p>Fill out the form and we’ll get back to you shortly.</p>
+
+            <form class="talk-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="min-h-[63.5px] md:min-h-[100.5px] lg:min-h-[100.5px]">
+        <div class="pre-loader"></div>
+      </div>
+
+      <!-- Services Hero Section -->
+      <section class="services-hero">
+        <div class="container">
+          <div class="services-hero-content">
+            <p class="services-hero-subtitle">Our Expertise</p>
+            <h1 class="services-hero-title">Comprehensive Technology Solutions</h1>
+            <p class="services-hero-text">We deliver cutting-edge technology services tailored to your business needs,
+              ensuring scalability, security, and performance.</p>
+          </div>
+        </div>
+        <div class="hero-gradient"></div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">What We Offer</p>
+            <h2 class="section-title">Our Core Services</h2>
+            <p class="section-description">We provide end-to-end technology solutions that empower businesses to thrive
+              in the digital age.</p>
+          </div>
+
+          <div class="services-grid">
+            <!-- Network Solutions -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h3 class="service-title">Network Solutions</h3>
+              <p class="service-description">Comprehensive network infrastructure design, implementation, and management
+                for optimal performance.</p>
+              <ul class="service-features">
+                <li>Network Design & Implementation</li>
+                <li>Wireless Solutions</li>
+                <li>Network Security</li>
+                <li>Performance Optimization</li>
+                <li>24/7 Monitoring & Support</li>
+              </ul>
+              <div class="service-link" data-service="network">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <!-- Cloud Services -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h3 class="service-title">Cloud Services</h3>
+              <p class="service-description">Scalable cloud solutions that enhance flexibility, reduce costs, and
+                improve collaboration.</p>
+              <ul class="service-features">
+                <li>Cloud Migration</li>
+                <li>Infrastructure as a Service (IaaS)</li>
+                <li>Platform as a Service (PaaS)</li>
+                <li>Cloud Security</li>
+                <li>Hybrid Cloud Solutions</li>
+              </ul>
+              <div class="service-link" data-service="cloud">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <!-- Security Solutions -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="service-title">Security Solutions</h3>
+              <p class="service-description">Comprehensive security measures to protect your data, infrastructure, and
+                business operations.</p>
+              <ul class="service-features">
+                <li>Cybersecurity Assessment</li>
+                <li>Threat Detection & Prevention</li>
+                <li>Data Encryption</li>
+                <li>Compliance Management</li>
+                <li>Security Awareness Training</li>
+              </ul>
+              <div class="service-link" data-service="security">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <!-- IT Consulting -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3 class="service-title">IT Consulting</h3>
+              <p class="service-description">Strategic technology guidance to align your IT infrastructure with business
+                objectives.</p>
+              <ul class="service-features">
+                <li>IT Strategy Development</li>
+                <li>Technology Roadmapping</li>
+                <li>Digital Transformation</li>
+                <li>Vendor Management</li>
+                <li>Cost Optimization</li>
+              </ul>
+              <div class="service-link" data-service="consulting">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <!-- Managed Services -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-headset"></i>
+              </div>
+              <h3 class="service-title">Managed Services</h3>
+              <p class="service-description">Proactive IT management to ensure optimal performance and minimize
+                downtime.</p>
+              <ul class="service-features">
+                <li>24/7 Monitoring</li>
+                <li>Help Desk Support</li>
+                <li>Patch Management</li>
+                <li>Backup & Disaster Recovery</li>
+                <li>Performance Reporting</li>
+              </ul>
+              <div class="service-link" data-service="managed">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+
+            <!-- Software Development -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="service-title">Software Development</h3>
+              <p class="service-description">Custom software solutions designed to address your specific business
+                challenges.</p>
+              <ul class="service-features">
+                <li>Web Application Development</li>
+                <li>Mobile App Development</li>
+                <li>API Development & Integration</li>
+                <li>UI/UX Design</li>
+                <li>Quality Assurance & Testing</li>
+              </ul>
+              <div class="service-link" data-service="software">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional Services Section -->
+      <section class="additional-services">
+        <div class="container">
+          <div class="section-header text-center">
+            <p class="section-subtitle">Specialized Solutions</p>
+            <h2 class="section-title">Additional Services</h2>
+            <p class="section-description">Explore our specialized technology solutions designed to meet your specific
+              business needs.</p>
+          </div>
+
+          <!-- Tabs -->
+          <div class="services-tabs text-center mb-4">
+            <button class="tab-btn active" data-tab="web">Web Development</button>
+            <button class="tab-btn" data-tab="app">App Development</button>
+            <button class="tab-btn" data-tab="uiux">UI/UX Design</button>
+            <button class="tab-btn" data-tab="seo">SEO</button>
+            <button class="tab-btn" data-tab="cyber">Cyber Security</button>
+            <button class="tab-btn" data-tab="branding">Branding</button>
+          </div>
+
+          <div class="services-content">
+            <!-- Web Development -->
+            <div class="service-item active" id="web">
+              <div class="row align-items-center">
+                <div class="col-md-12">
+                  <article class="service-article">
+                    <h2>Web Development</h2>
+                    <p>Modern, accessible, responsive websites optimized for performance. We create digital experiences
+                      that engage users and drive conversions.</p>
+                    <ul class="modal-features">
+                      <li>Responsive design for all devices</li>
+                      <li>E-commerce solutions</li>
+                      <li>Content Management Systems</li>
+                      <li>Progressive Web Apps</li>
+                      <li>Performance optimization</li>
+                    </ul>
+                    <div class="service-link" data-service="web">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Web Development" class="service-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- App Development -->
+            <div class="service-item" id="app">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <article class="service-article">
+                    <h2>App Development</h2>
+                    <p>Cross-platform apps with robust architecture and testing. We build applications that deliver
+                      exceptional user experiences across all platforms.</p>
+                    <ul class="modal-features">
+                      <li>Native iOS and Android development</li>
+                      <li>Cross-platform solutions</li>
+                      <li>API integration</li>
+                      <li>Quality assurance testing</li>
+                      <li>App store deployment</li>
+                    </ul>
+                    <div class="service-link" data-service="app">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="App Development" class="service-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="service-item" id="uiux">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <article class="service-article">
+                    <h2>UI/UX Design</h2>
+                    <p>Wireframes, prototypes, and design systems. We create intuitive interfaces that enhance user
+                      satisfaction and drive engagement.</p>
+                    <ul class="modal-features">
+                      <li>User research and testing</li>
+                      <li>Wireframing and prototyping</li>
+                      <li>Interaction design</li>
+                      <li>Design systems</li>
+                      <li>Usability auditing</li>
+                    </ul>
+                    <div class="service-link" data-service="uiux">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="UI/UX Design" class="service-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- SEO -->
+            <div class="service-item" id="seo">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <article class="service-article">
+                    <h2>SEO</h2>
+                    <p>Boost your online visibility and drive organic traffic. Our SEO strategies ensure long-term
+                      growth and top rankings on search engines.</p>
+                    <ul class="modal-features">
+                      <li>Keyword research and strategy</li>
+                      <li>On-page & technical SEO</li>
+                      <li>Link building campaigns</li>
+                      <li>Content optimization</li>
+                      <li>Analytics & reporting</li>
+                    </ul>
+                    <div class="service-link" data-service="seo">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="SEO Services" class="service-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- Cyber Security -->
+            <div class="service-item" id="cyber">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <article class="service-article">
+                    <h2>Cyber Security</h2>
+                    <p>Protect your digital assets with advanced security solutions. We safeguard your business from
+                      cyber threats and data breaches.</p>
+                    <ul class="modal-features">
+                      <li>Network security</li>
+                      <li>Vulnerability assessment</li>
+                      <li>Penetration testing</li>
+                      <li>Data encryption</li>
+                      <li>24/7 monitoring</li>
+                    </ul>
+                    <div class="service-link" data-service="cyber">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1600267165517-2a7b5f0483d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Cyber Security" class="service-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- Branding -->
+            <div class="service-item" id="branding">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <article class="service-article">
+                    <h2>Branding</h2>
+                    <p>Build a powerful brand identity with us. From logos to brand strategy, we help you stand out and
+                      connect with your audience.</p>
+                    <ul class="modal-features">
+                      <li>Logo design & brand identity</li>
+                      <li>Brand guidelines</li>
+                      <li>Marketing collateral</li>
+                      <li>Rebranding solutions</li>
+                      <li>Digital branding strategies</li>
+                    </ul>
+                    <div class="service-link" data-service="branding">
+                      Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Branding Services" class="service-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process Section -->
+      <section class="process-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Our Approach</p>
+            <h2 class="section-title">How We Work</h2>
+            <p class="section-description">We follow a structured process to ensure successful delivery of technology
+              solutions.</p>
+          </div>
+
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="step-number">1</div>
+              <h3 class="step-title">Discovery & Analysis</h3>
+              <p class="step-description">We begin by understanding your business needs, challenges, and goals to
+                develop a comprehensive strategy.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">2</div>
+              <h3 class="step-title">Planning & Design</h3>
+              <p class="step-description">We create detailed plans and designs that align with your objectives and
+                ensure optimal solutions.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">3</div>
+              <h3 class="step-title">Implementation</h3>
+              <p class="step-description">Our experts deploy the solutions with minimal disruption to your operations,
+                following best practices.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">4</div>
+              <h3 class="step-title">Support & Optimization</h3>
+              <p class="step-description">We provide ongoing support, monitoring, and optimization to ensure continued
+                performance and value.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <div class="container">
+          <h2 class="cta-title">Ready to Transform Your Technology Infrastructure?</h2>
+          <p class="cta-text">Contact us today to discuss how our services can help your business achieve its technology
+            goals and drive growth.</p>
+          <div class="cta-buttons">
+            <button class="btn-primary">Get Started Today</button>
+            <button class="btn-outline">Learn More About Us</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="container">
+          <div class="footer-main">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img src="https://www.onenetworktech.com/assets/images/logo/onenetwork_logo-removebg-preview.png"
+                  alt="OneNetwork Logo" width="200" />
+              </div>
+              <p>OneNetwork provides cutting-edge technology solutions and network services from our base in Texas,
+                USA.</p>
+              <div class="footer-social">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-column">
+              <h3>Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Services</h3>
+              <ul class="footer-links">
+                <li><a href="#">Network Solutions</a></li>
+                <li><a href="#">Cloud Services</a></li>
+                <li><a href="#">Security Solutions</a></li>
+                <li><a href="#">IT Consulting</a></li>
+                <li><a href="#">Managed Services</a></li>
+                <li><a href="#">Software Development</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Contact Info</h3>
+              <div class="footer-contact">
+                <p><strong>Address:</strong> Texas, USA</p>
+                <p><strong>Phone:</strong> +1 888-404-0386</p>
+                <p><strong>Email:</strong> info@onenetworktech.com</p>
+                <!-- <p><strong>Hours:</strong> Mon-Fri: 9AM - 5PM</p> -->
+              </div>
+
+              <!-- <div class="footer-newsletter">
+                <p>Subscribe to our newsletter</p>
+                <form class="newsletter-form">
+                  <input type="email" placeholder="Your email" class="newsletter-input" required>
+                  <button type="submit" class="newsletter-btn">
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; 2023 OneNetwork. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="serviceModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-header">
+        <h2 id="modalTitle">Service Title</h2>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img id="modalImage" src="" alt="Service Image">
+        </div>
+        <div>
+          <p id="modalDescription">Service description will appear here.</p>
+          <ul class="modal-features" id="modalFeatures">
+            <!-- Features will be added dynamically -->
+          </ul>
+          <div class="modal-actions">
+            <button class="btn-primary">Get This Service</button>
+            <button class="btn-outline">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simple script to handle the pre-loader
+    window.addEventListener('load', function () {
+      const preloader = document.querySelector('.pre-loader');
+      if (preloader) {
+        setTimeout(() => {
+          preloader.style.display = 'none';
+        }, 1000);
+      }
+
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const navMenu = document.getElementById('navMenu');
+
+      if (mobileMenuBtn && navMenu) {
+        mobileMenuBtn.addEventListener('click', function () {
+          navMenu.classList.toggle('active');
+        });
+      }
+
+      // Close mobile menu when clicking on a link
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          navMenu.classList.remove('active');
+        });
+      });
+
+      // Tab functionality for additional services
+      // Tab functionality
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const serviceItems = document.querySelectorAll('.service-item');
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', function () {
+          // Remove active from all
+          tabBtns.forEach(b => b.classList.remove('active'));
+          serviceItems.forEach(item => item.classList.remove('active'));
+
+          // Add active to clicked tab
+          this.classList.add('active');
+
+          // Show corresponding service
+          const tabId = this.getAttribute('data-tab');
+          document.getElementById(tabId).classList.add('active');
+        });
+      });
+      // Modal functionality
+      const modal = document.getElementById('serviceModal');
+      const closeModal = document.querySelector('.close-modal');
+      const serviceLinks = document.querySelectorAll('.service-link');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalImage = document.getElementById('modalImage');
+      const modalDescription = document.getElementById('modalDescription');
+      const modalFeatures = document.getElementById('modalFeatures');
+
+      // Service data for modals
+      const serviceData = {
+        network: {
+          title: "Network Solutions",
+          image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Comprehensive network infrastructure design, implementation, and management for optimal performance. Our experts design robust networks that ensure reliability, security, and scalability for your business operations.",
+          features: [
+            "Network Design & Implementation",
+            "Wireless Solutions",
+            "Network Security",
+            "Performance Optimization",
+            "24/7 Monitoring & Support",
+            "Disaster Recovery Planning",
+            "Network Auditing & Assessment"
+          ]
+        },
+        cloud: {
+          title: "Cloud Services",
+          image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Scalable cloud solutions that enhance flexibility, reduce costs, and improve collaboration. We help businesses leverage cloud technology to drive innovation and operational efficiency.",
+          features: [
+            "Cloud Migration",
+            "Infrastructure as a Service (IaaS)",
+            "Platform as a Service (PaaS)",
+            "Cloud Security",
+            "Hybrid Cloud Solutions",
+            "Cloud Cost Optimization",
+            "Disaster Recovery as a Service"
+          ]
+        },
+        security: {
+          title: "Security Solutions",
+          image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Comprehensive security measures to protect your data, infrastructure, and business operations. Our multi-layered approach ensures protection against evolving cyber threats.",
+          features: [
+            "Cybersecurity Assessment",
+            "Threat Detection & Prevention",
+            "Data Encryption",
+            "Compliance Management",
+            "Security Awareness Training",
+            "Incident Response Planning",
+            "Vulnerability Management"
+          ]
+        },
+        consulting: {
+          title: "IT Consulting",
+          image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Strategic technology guidance to align your IT infrastructure with business objectives. We help you make informed technology decisions that drive growth and efficiency.",
+          features: [
+            "IT Strategy Development",
+            "Technology Roadmapping",
+            "Digital Transformation",
+            "Vendor Management",
+            "Cost Optimization",
+            "IT Governance",
+            "Business Process Improvement"
+          ]
+        },
+        managed: {
+          title: "Managed Services",
+          image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Proactive IT management to ensure optimal performance and minimize downtime. Our managed services allow you to focus on your core business while we handle your IT needs.",
+          features: [
+            "24/7 Monitoring",
+            "Help Desk Support",
+            "Patch Management",
+            "Backup & Disaster Recovery",
+            "Performance Reporting",
+            "Proactive Maintenance",
+            "IT Asset Management"
+          ]
+        },
+        software: {
+          title: "Software Development",
+          image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Custom software solutions designed to address your specific business challenges. We develop scalable, secure, and user-friendly applications that drive business value.",
+          features: [
+            "Web Application Development",
+            "Mobile App Development",
+            "API Development & Integration",
+            "UI/UX Design",
+            "Quality Assurance & Testing",
+            "DevOps Implementation",
+            "Software Maintenance & Support"
+          ]
+        },
+        web: {
+          title: "Web Development",
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Modern, accessible, responsive websites optimized for performance. We create digital experiences that engage users and drive conversions.",
+          features: [
+            "Responsive design for all devices",
+            "E-commerce solutions",
+            "Content Management Systems",
+            "Progressive Web Apps",
+            "Performance optimization",
+            "SEO-friendly development",
+            "Website Maintenance"
+          ]
+        },
+        app: {
+          title: "App Development",
+          image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Cross-platform apps with robust architecture and testing. We build applications that deliver exceptional user experiences across all platforms.",
+          features: [
+            "Native iOS and Android development",
+            "Cross-platform solutions",
+            "API integration",
+            "Quality assurance testing",
+            "App store deployment",
+            "Push notifications",
+            "App analytics integration"
+          ]
+        },
+        uiux: {
+          title: "UI/UX Design",
+          image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Wireframes, prototypes, and design systems. We create intuitive interfaces that enhance user satisfaction and drive engagement.",
+          features: [
+            "User research and testing",
+            "Wireframing and prototyping",
+            "Interaction design",
+            "Design systems",
+            "Usability auditing",
+            "Accessibility compliance",
+            "Design handoff to development"
+          ]
+        },
+        seo: {
+          title: "SEO",
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Technical audits, on-page optimization, and content strategy. We improve your visibility in search engines to drive organic traffic.",
+          features: [
+            "Technical SEO audits",
+            "Keyword research and strategy",
+            "On-page optimization",
+            "Content strategy",
+            "Performance tracking and reporting",
+            "Local SEO optimization",
+            "Link building strategies"
+          ]
+        },
+        cyber: {
+          title: "Cyber Security",
+          image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Threat modeling, security hardening, and monitoring. We protect your digital assets from evolving cyber threats.",
+          features: [
+            "Vulnerability assessments",
+            "Penetration testing",
+            "Security architecture",
+            "Incident response planning",
+            "Security awareness training",
+            "Security policy development",
+            "Compliance management (GDPR, HIPAA, PCI)"
+          ]
+        },
+        branding: {
+          title: "Branding",
+          image: "https://images.unsplash.com/photo-1567446537738-74804ee3a9bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          description: "Identity, guidelines, and asset kits. We help you build a strong brand that resonates with your audience.",
+          features: [
+            "Brand strategy development",
+            "Logo and identity design",
+            "Brand guidelines",
+            "Marketing collateral",
+            "Brand voice and messaging",
+            "Brand positioning",
+            "Visual identity systems"
+          ]
+        }
+      };
+
+      // Open modal when service link is clicked
+      serviceLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          const serviceId = this.getAttribute('data-service');
+          const data = serviceData[serviceId];
+
+          if (data) {
+            modalTitle.textContent = data.title;
+            modalImage.src = data.image;
+            modalImage.alt = data.title;
+            modalDescription.textContent = data.description;
+
+            // Clear previous features
+            modalFeatures.innerHTML = '';
+
+            // Add features
+            data.features.forEach(feature => {
+              const li = document.createElement('li');
+              li.textContent = feature;
+              modalFeatures.appendChild(li);
+            });
+
+            // Show modal
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+
+      // Close modal
+      closeModal.addEventListener('click', function () {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      });
+
+      // Close modal when clicking outside
+      window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      });
+
+      // Close modal with Escape key
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && modal.style.display === 'block') {
+          modal.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      });
+    });
+
+    // Modal open/close logic
+    const talkBtn = document.querySelector('.talk-btn');
+    const modal = document.getElementById('talkModal');
+    const closeBtn = document.querySelector('.close-modal');
+
+    talkBtn.addEventListener('click', () => {
+      modal.style.display = 'flex';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+
+</html>
